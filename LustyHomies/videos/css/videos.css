@@ -1,0 +1,67 @@
+.VdsContainer{
+    position: absolute;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 270px;
+    width: 77vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+    column-gap: 2px;
+    row-gap: 60px;
+    /* background-color: blue; */
+}
+.Vds{
+    width: 250px;
+    height: 151px;
+    object-fit: cover;
+    object-position: center;
+    background-color: rgb(25, 24, 23);
+}
+/* .Vds p{
+    position: relative;
+    top: 2x;
+    color: brown;
+} */
+.Vds img{
+    position: absolute;
+    width: 250px;
+    top: 0;
+    height: 152px;
+    border: #BF4187 1px solid;
+}
+.Vds h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 151px;
+}
+.Vds p{
+    padding-top: 6px;
+    color: #BF4187;
+}
+@media screen and (max-width: 776px){
+    .VdsContainer{
+    margin-left: 18px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
+    column-gap: 40px;
+    }
+    .Vds{
+    width: 251px;
+    }
+}
+
+/* ----------------------- */
+
+.vdoPlayer{
+    width: 835px;
+    height: 300px;
+    background-color: #BF4187;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 262px;
+    margin-top: 80px;
+}

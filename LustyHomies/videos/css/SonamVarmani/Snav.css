@@ -1,0 +1,338 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+#navUL{
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  padding-left: 30px;
+  line-height: 74px;
+  max-height: 74px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.nav_Li{
+  display: inline-block;
+  padding-left: 45px;
+  color: #BF4187;
+  font-weight: 500;
+  font-size: 18px;
+}
+#Sonam{
+  padding-left: 60px;
+}
+.nav_Bars{
+  margin-right: 18px;
+  margin-top: 15px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  display: none;
+}
+.nav_Bars .bar1{
+  border-radius: 25px;
+  background-color: #fd068e;
+  height: 4.5px;
+  width: 40px;
+  margin: 5px;
+}
+.nav_Bars .bar2{
+  border-radius: 25px;
+  background-color: #fd068e;
+  height: 4.5px;
+  width: 20px;
+  margin: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.nav_Bars .bar3{
+  border-radius: 25px;
+  background-color: #fd068e;
+  height: 4.5px;
+  width: 35px;
+  margin: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.nav_Li:hover{
+  color: #e23b97;
+  cursor: pointer;
+}
+.nav_Logo img{
+  width: 119px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.nav_LogoT img{
+  width: 210px;
+  padding-top: 7px;
+  position: relative;
+  right: 22px;
+  cursor: pointer;
+}
+.nav_IN{
+  color: #575555;
+  position: relative;
+  right: 35px;
+  line-height: 2;
+  color: #BF4187;
+  font-weight: 600;
+  font-size: 15px;
+}
+.box{
+  max-width: 400px;
+  width: 100%;
+}
+.box .search-box{
+  position: relative;
+  /* left: 20px; */
+  height: 50px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  padding-top: 15px;
+}
+.search-box input{
+ position: absolute;
+ height: 42px;
+ width: 100%;
+ border-radius: 6px;
+ background: #202020;
+ outline: none;
+ border: none;
+ padding-left: 20px;
+ font-size: 16px;
+ color: aliceblue;
+}
+.search-box .icon{
+  position: absolute;
+  right: -2px;
+  top: 0;
+  line-height: 48px;
+  color: #BF4187;
+  font-size: 18px;
+  border-radius: 6px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.box__MediaS{
+    display: none;
+}
+    .mid__NavSecs{
+        display: flex;
+        justify-content: center;
+        background-color: #1d1b1b;
+        display: none;
+    }
+    .mid__NavSecs{
+        color: rgb(180, 160, 160);
+        padding: 10px 0 10px 0;
+    }
+    #live_2{
+        margin-top: 5px;
+    }
+    .underLine{
+      color: rgb(180, 160, 160);
+      display: none;
+    }
+    #Sonam_2 sup{
+      -webkit-animation: ClrFull 5s infinite alternate;
+    }
+    .desktopBars{
+      position: fixed;
+      list-style-type: none;
+      max-width: 200px; 
+      min-width: 200px;
+      min-height: 85%!important;
+      margin-left: 31px;
+      margin-top: 20px;
+      border-right: rgb(221, 208, 208) 2px solid;
+  }
+  .desktopBars li{
+      color: rgb(221, 208, 208);
+      padding-top: 16px;
+      cursor: pointer;
+  }
+    .mobileBars{
+      z-index: 5;
+      position: absolute;
+      top: 61px;
+      list-style-type: none;
+      max-width: 250px; 
+      min-width: 250px;
+      padding-top: 10px;
+      min-height: 290%!important;
+      display: none;
+      background-color: black;
+      box-shadow: 0 179px 100px rgba(0, 0, 0, 1000); 
+      animation-name: slidee;
+      animation-duration: 1s;
+  }
+  .mobileBars li{
+    display: flex;
+      color: rgb(221, 208, 208);
+      padding-left: 5px;
+      cursor: pointer;
+      height: 44px;
+      align-items: center;
+  }
+  .ig{
+    color:#BF4187;
+  }
+  #Welcome{
+    font-size: 18px;
+    color:#e23b97;
+    border-bottom: rgb(135, 132, 132) 1px solid;
+    padding-bottom: 16px;
+  }
+  #WelcomeD{
+    font-size: 17px;
+    color:#e23b97;
+    border-bottom: rgb(135, 132, 132) 1px solid;
+    padding-bottom: 16px;
+    padding-top: 0;
+  }
+  #Welcome sup{
+    font-size: 12px;
+  }
+  #Uniqq2{
+    padding-top: 17px;
+}
+  .ig{
+    color:#BF4187;
+    list-style-type: disc;
+  }
+  .fa-heart{
+    margin-left: -7px;
+  }
+  .fa-play{
+    margin-left: 4px;
+  }
+  @keyframes slidee{
+    from{
+      right: -250px;}
+    to{
+      right: 0px;
+    }
+  }
+  @keyframes slideeEnd{
+    from{
+      right: 0px;}
+    to{
+      right: -250px;
+    }
+  }
+    @-webkit-keyframes ClrFull{
+        0% {
+          color: #BF4187;
+        }
+        20% {
+          color: #ff009d;
+        }
+        40% {
+          color: #f11717;
+        }
+        60% {
+          color: #8b2c2c;
+        }
+        80% {
+          color: #ff009d;
+        }
+        100% {
+          color: #BF4187;
+        }
+    }
+
+@media screen and (max-width: 1128px){
+    #Sonam{
+        display: none;
+    }
+    #Live{
+        display: none;
+    }
+    .nav_Bars{
+        display: list-item;
+        position: relative;
+        left: 60px;
+    }
+    .fa-heart{
+      margin-left: 0px;
+    }
+}
+@media screen and (max-width: 776px){
+  .nav_Bars{
+      position: relative;
+      left: 0px;
+  }
+    .box{
+        display: none;
+    }
+    .box__MediaS{
+      display: block;
+      width: 99.5%;
+    }
+    .box__MediaS .search-box__MediaS{
+      position: relative;
+      height: 40px;
+      margin: auto;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      padding-top: 12px;
+      background: #202020;
+    }
+    .search-box__MediaS input{
+     position: absolute;
+     height: 30px;
+     width: 230px;
+     border-radius: 6px;
+     background: #202020;
+     outline: none;
+     border: none;
+     padding-left: 20px;
+     font-size: 16px;
+     color: aliceblue;
+    }
+    .search-box__MediaS .icon{
+      position: absolute;
+      right: -2px;
+      top: 0;
+      line-height: 32px;
+      color: #BF4187;
+      font-size: 18px;
+      border-radius: 6px;
+      padding-top: 12px;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+    .mid__NavSecs{
+      display: flex;
+      background-color: #1d1b1b;
+    }
+    .underLine{
+      color: rgb(180, 160, 160);
+      display: block;
+    }
+}
+@media screen and (max-width: 425px){
+  #navUL{
+      padding-left: 0;
+  }
+  .nav_Logo img{
+      width: 109px;
+  }
+  .nav_LogoT img{
+      width: 183px;
+  }
+}
+@media screen and (max-width: 353px){
+  .nav_Bars{
+      position: relative;
+      left: -35px;
+  }
+}

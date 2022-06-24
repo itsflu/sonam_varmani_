@@ -1,0 +1,20 @@
+.vdoC{
+    background-color: #e873b4;
+}
+.recent_Header{
+    position: absolute;
+    left: 250px;
+    margin: 20px 0 0 20px;
+    color: #fffdfe;
+    text-shadow: 2px 2px 4px #000000;
+}
+.Bcontents1:hover{color:#e873b4;}.Bcontents2:hover{color:#e873b4;}.Bcontents3:hover{color:#e873b4;}.Bcontents4:hover{color:#e873b4;}.Bcontents5:hover{color:#e873b4;}.Bcontents6:hover{color:#e873b4;}
+
+@media screen and (max-width: 776px){
+    .desktopBars{
+        display: none;
+    }
+    .recent_Header{
+        left: 0;
+    }
+}
